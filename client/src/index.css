@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Apply the styles you want for the text */
+/* Apply the styles you want for the text */
+.text-justify {
+    text-align: justify;
+}
+
+/* Set the desired number of lines before truncating the text */
+.text-wrapper {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.dmopMx {
+    display: none!important;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
